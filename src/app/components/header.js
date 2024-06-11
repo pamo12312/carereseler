@@ -7,7 +7,7 @@ export default function Header() {
     return (
         <div className="flex justify-between  bg-black">
             <Logo />
-        <div className={"flex gap-10"}>
+        <div className={"flex gap-10 flex-wrap"}>
             <Contact />
             <Phone />
         <Email/>

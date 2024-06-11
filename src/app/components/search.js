@@ -52,8 +52,8 @@ export default function Search() {
         <div>
             <div className={"flex justify-evenly pt-10 pb-10 text-5xl bg-black text-white"}>
                 <div> Vyberte si svůj vůz</div>
-                <p>Aut k dispozici: {hitsCount}</p> </div>
-            <div className={"flex justify-center gap-10 bg-black pb-10"}>
+                <p>Aut k dispozici: {hitsCount}</p></div>
+            <div className={"flex justify-center gap-10 bg-black pb-10 flex-wrap"}>
                 <input className={"rounded-xl"}  type="text" placeholder="Výrobce" value={manufacturer} onChange={handleManufacturerChange}/>
                 <input className={"rounded-xl"} type="number" placeholder="Minimální cena" value={minPrice} onChange={handleMinPriceChange}/>
                 <input className={"rounded-xl"} type="number" placeholder="Maximální cena" value={maxPrice} onChange={handleMaxPriceChange}/>
